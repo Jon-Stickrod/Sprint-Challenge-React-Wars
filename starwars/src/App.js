@@ -1,5 +1,5 @@
 import React, {useState, useEffect } from 'react';
-import cardSection from './components/cardSection';
+import CardGrid from './components/cardSection';
 import './App.css';
 
 
@@ -14,7 +14,7 @@ const App = () => {
   return (
     <div className="App">
       <h1 className="Header">Characters</h1>
-      <cardSection />
+      <CardGrid />
     </div>
 
   );
